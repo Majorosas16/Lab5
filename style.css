@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+ body { /*Acá se establecen los parametros básicos de la pagina  */
+    width: 100vw;
+    height: 100vh;
+    background: rgb(236,50,141);
+    background: linear-gradient(90deg, rgba(236,50,141,1) 29%, rgba(255,0,86,1) 100%);
+    display: flex; 
+}
+
+/* .caja__logo img{
+    height: 50px;
+} */
+
+nav{
+
+background-color: beige;
+height: 70px;
+
+}
+
+.pro{
+    margin-left: 8rem;
+}
+
+.fil{
+    margin-left: 4rem;
+}
+
+.icon{
+width: 80px;
+}
+
+
+
+/* .caja__logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+}
+*/
+
+
+
+
