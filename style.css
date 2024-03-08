@@ -86,6 +86,7 @@ width: 15%;
 display: flex;
 align-items: center;
 padding-left: 80px;
+background-color: none;
 }
 
 .nav{
