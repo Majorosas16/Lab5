@@ -112,8 +112,9 @@ transition: all 800ms ease;
 /*Banner*/
 
 .banner{
+    margin-top: 5%;
 width: 100%; /*Que abarque toda la pagina*/
-height: calc(100vh - 75px);
+height: 100%;
 display: flex;
 align-items: center;
 
