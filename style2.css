@@ -12,3 +12,136 @@ body{
     justify-content: center;
     align-items: center;
 }
+    .main{
+        width:100%;
+    }
+    
+    /*sect_1*/
+    .sect_1{
+        height: cal(100vh);
+        
+    }
+    /*Header*/
+    .header{
+    background-color: rgb(255, 173, 229);
+    display: flex;
+    width: 100%;
+    height: 100px;
+    }
+    
+    .header-logo{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    background-color: none;
+    transition: all .3s;
+    }
+    
+    .header-logo:hover{
+    transform: scale(1.1);
+    
+    }
+    
+    .nav{
+    background-color: rgb(247, 94, 188)5, 0, 157;
+    width:100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 50px;
+    }
+    
+    .link{
+    text-decoration: none;
+    color: white;
+    margin: 1% 3%;    
+    font-weight: bold;
+    transition: all 800ms ease;
+    }
+    
+    .link:hover{ /*Al pararse que se coloque de diferente color*/
+        color: rgb(228, 56, 93);
+        }
+    
+    /*Banner*/
+    
+    .banner{
+        margin-top: 5%;
+    width: 100%; /*Que abarque toda la pagina*/
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row; /*Por default está así*/
+    
+    }
+    
+    .foto{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    border: 5px solid rgb(192, 21, 78);
+    transition: all .5s;
+    }
+    
+    .foto:hover{
+    transform: scale(1.09);
+    }
+    
+    .img{
+        display: flex;
+        align-items: center;
+        margin-bottom: 50px;
+        margin-right: 50px;
+    }
+    
+    .banner_text{
+    margin-bottom: 8rem;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center; 
+    align-self: center;
+    }
+    
+    .banner_T1{
+     font-size: 3rem;
+     color: white;
+    
+    }
+    
+    .banner_T2{
+     color: white;
+     font-weight: normal;
+    }
+    
+    .banner_P{
+        color: white;
+        font-weight: lighter;
+    margin-top: 10px;
+    }
+    
+    .banner_btn{
+        margin-top: 1rem;
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        text-decoration: none;
+        background-color: rgb(192, 21, 78);
+        color: white;
+        font-weight: bold;
+    padding: 10px;
+    border-radius: 50px;
+    transition: all 800ms ease;
+    }
+    
+    .banner_btn:hover{
+        color: rgb(107, 9, 30);
+        border: 4px solid rgb(107, 9, 30); 
+        background: none;
+    }
+    
