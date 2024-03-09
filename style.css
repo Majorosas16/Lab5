@@ -87,6 +87,12 @@ display: flex;
 align-items: center;
 padding-left: 80px;
 background-color: none;
+transition: all .3s;
+}
+
+.header-logo:hover{
+transform: scale(1.2);
+
 }
 
 .nav{
@@ -128,6 +134,11 @@ align-items: center;
 margin-bottom: 50px;
 margin-right: 50px;
 border: 5px solid rgb(192, 21, 78);
+transition: all .5s;
+}
+
+.foto:hover{
+transform: scale(1.09);
 }
 
 .img{
@@ -225,7 +236,12 @@ align-items: center;
 object-fit: cover;
 width: 500%;
 border: 5px solid rgb(107, 9, 30);
+transition: all .5s;
 
+}
+
+.offer-img img:hover{
+    transform: scale(1.1);
 }
 
 .offer-price{
@@ -246,7 +262,7 @@ justify-content: space-between;
 }
 
 .price-price h3{
-    font-size: 24px;
+    font-size: 20px;
     color: rgb(107, 9, 30);
 }
 
@@ -328,12 +344,14 @@ align-items: center;
 }
 
 .pie-pagina .grupo-1 .box h2{
+color: white;
 margin-bottom: 15px;
 font-size: 20px;
 
 }
 
 .pie-pagina .grupo-1 .box p{
+    color: white;
     margin-bottom: 15px;
     font-size: 15px;
 }
@@ -344,7 +362,7 @@ font-size: 20px;
     width: 45px;
     height: 45px;
     line-height: 45px;
-    color: black;
+    color: white;
     margin-right: 10px;
     background-color: rgb(251, 137, 217) ;
     text-align: center;
