@@ -118,6 +118,7 @@ width: 100%; /*Que abarque toda la pagina*/
 height: 100%;
 display: flex;
 align-items: center;
+flex-direction: row; /*Por default está así*/
 
 }
 
@@ -260,6 +261,25 @@ justify-content: space-between;
 }
 
 .Details{
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 1rem;
+    background-color: white;
+    justify-content: center;
+    margin-left: 1rem;
+    padding: 15px;
+    color: rgb(110, 15, 39);
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    transition: all 300ms ease;
+}
+
+.DetailsRosa{
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
     margin-top: 1rem;
     background-color: white;
     justify-content: center;
