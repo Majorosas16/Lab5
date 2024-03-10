@@ -133,7 +133,6 @@ display: flex;
 align-items: center;
 margin-bottom: 50px;
 margin-right: 50px;
-border: 5px solid rgb(192, 21, 78);
 transition: all .5s;
 }
 
@@ -166,7 +165,7 @@ align-self: center;
 
 .banner_T2{
  color: white;
- font-weight: normal;
+ font-weight: lig;
 }
 
 .banner_P{
@@ -226,7 +225,7 @@ margin: 0 25px;
 
 .offer-img{
 width: 100%;
-height: 400px;
+height: 300px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -235,7 +234,6 @@ align-items: center;
 .offer-img img{  /*El último img: es todas las imagenes que estan dentro de esa caja*/
 object-fit: cover;
 width: 500%;
-border: 5px solid rgb(107, 9, 30);
 transition: all .5s;
 
 }
@@ -268,6 +266,7 @@ justify-content: space-between;
 
 .price-price h4{
     font-size: 24px;
+    font-weight: lighter;
     color: rgb(107, 9, 30);
 }
 
@@ -314,7 +313,7 @@ justify-content: space-between;
     background: none;
 }
 
-/* Pie de página */
+/* footer */
 
 .pie-pagina{
 width: 100%;
@@ -322,7 +321,7 @@ background-color: rgb(252, 116, 211);
 }
 
 .pie-pagina .grupo-1{
-width: 100%;
+width: 50%;
 max-width: 1200px;
 margin: auto;
 display: grid;
@@ -332,8 +331,8 @@ padding: 45px 0px;
 }
 
 .pie-pagina .grupo-1 .box figure{
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -353,6 +352,7 @@ font-size: 20px;
 .pie-pagina .grupo-1 .box p{
     color: white;
     margin-bottom: 15px;
+    font-weight: lighter;
     font-size: 15px;
 }
 
